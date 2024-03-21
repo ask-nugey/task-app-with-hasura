@@ -13,7 +13,9 @@
   "dependencies": {
     "@apollo/client": "^3.9.7",
     "@apollo/experimental-nextjs-app-support": "^0.8.0",
+    "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "firebase": "^10.9.0",
@@ -24,6 +26,7 @@
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.2",
+    "toast": "link:@/registry/default/ui/toast",
     "zod": "^3.22.4"
   },
   "devDependencies": {
