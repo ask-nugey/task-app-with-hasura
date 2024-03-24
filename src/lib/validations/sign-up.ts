@@ -1,6 +1,6 @@
 import * as z from "zod";
-import { UserClient } from "../graphql/clients/user.client";
-import { GqlClientFactory } from "../graphql/clients/gql.client";
+import { UserClient } from "@/lib/graphql/clients/user.client";
+import { GqlClientFactory } from "@/lib/graphql/clients/gql.client";
 
 const isUsernameAvailable = async (username: string): Promise<boolean> => {
   const data = await UserClient.select_user_by_username(
